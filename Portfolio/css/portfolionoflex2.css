@@ -1,0 +1,181 @@
+img, embed, object, video {
+  max-width: 100%;
+}
+
+figcaption {
+  text-align: center;
+  color: white;
+  font-family: 'Karla', sans-serif;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 10pt;
+}
+
+figcaption h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 15pt;
+}
+
+figure {
+  background-color: #A0B586;
+}
+
+body {
+  margin: 0;
+}
+
+.topbanner {
+  width: 100%;
+  background-color: #646F56;
+}
+
+.logobox {
+  margin-left: 30px;
+}
+
+.wideimage {
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.logobox img {
+  width: 100px;
+  height: auto;
+}
+
+.name {
+  color: white;
+  font-family: 'Karla', sans-serif;
+  font-size: 30pt;
+  margin-bottom: 0px;
+  margin-top: 12px;
+  text-align: right;
+}
+
+.nametag {
+  color: white;
+  font-family: 'Karla', sans-serif;
+  font-size: 14pt;
+  text-align: right;
+  margin-top: 0px;
+}
+
+.bannerline {
+  height: 3px;
+  background-color: #646F56;
+  margin: auto;
+  clear:both;
+  width: 100%;
+}
+
+.portfoliocontainer {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.portfolioitem {
+  max-width: 250px;
+  margin: 0;
+  box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+.copyright {
+  font-family: 'Karla', sans-serif;
+  color: white;
+  vertical-align: middle;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.copyrightbox {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  background-color: #646F56;
+  margin: auto;
+}
+
+.featured {
+  font-size: 18pt;
+  font-family: 'Karla', sans-serif;
+  color: white;
+}
+
+.featuredbox {
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  background-color: #646F56;
+  margin: auto;
+}
+
+@media screen and (min-width:435px) {
+  .namebox {
+    float: right;
+    padding-right: 30px;
+  }
+
+  .portfolioitem {
+    margin-bottom: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+}
+
+/* Changes for phone size screens */
+
+@media screen and (max-width:435px) {
+  .logobox {
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-bottom: -10px;
+  }
+
+  .logobox img {
+    width:160px;
+    height: auto;
+  }
+
+  .name {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30pt;
+    margin-top: 0;
+  }
+
+  .nametag {
+    font-size: 12pt;
+    text-align: center;
+  }
+
+  .namebox {
+    text-align: center;
+  }
+
+  .featuredbox {
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .portfolioitem {
+    max-width: 150px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .portfoliocontainer {
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+}

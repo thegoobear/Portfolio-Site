@@ -1,0 +1,113 @@
+img, embed, object, video {
+  max-width: 100%
+}
+
+.topbanner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logobox {
+  margin-left: 30px;
+  width: 20%;
+}
+
+.logobox img {
+  height: auto;
+}
+
+.name {
+  color: gray;
+  font-family: 'Karla', sans-serif;
+  font-size: 24pt;
+  margin-bottom: 0px;
+  margin-top: 15px;
+  text-align: right;
+}
+
+.nametag {
+  color: gray;
+  font-family: 'Karla', sans-serif;
+  font-size: 12pt;
+  text-align: right;
+  margin-top: 0px;
+}
+
+.namebox {
+  vertical-align: center;
+}
+/*
+@media screen and (max-width:396px) {
+  .topbanner{
+    justify-content: center;
+  }
+
+  .name {
+    text-align: center;
+    margin-top: -15px;
+  }
+
+  .logobox {
+
+  }
+
+  .nametag {
+    text-align: center;
+  }
+}
+
+
+.bannerline {
+  height: 3px;
+  background-color: gray;
+  clear:both;
+  margin:auto;
+  width: 95%;
+}
+
+.navbar {
+
+}
+
+.menuitem {
+
+}
+
+@media screen and (min-width:602px) {
+.namebox {
+  padding-right: 30px;
+  }
+
+  .logobox img {
+    width:100px;
+  }
+
+}
+
+@media screen and (max-width:602px) {
+
+  .topbanner {
+    flex-wrap: wrap;
+  }
+
+  .logobox {
+    text-align: center;
+  }
+
+  .name {
+    text-align: center;
+    font-size: 30pt;
+    margin-top: 0;
+  }
+
+  .nametag {
+    font-size: 12pt;
+    text-align: center;
+  }
+
+  .namebox {
+    text-align: center;
+  }
+}
+*/
